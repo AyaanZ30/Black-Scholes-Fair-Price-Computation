@@ -12,6 +12,7 @@ int main(){
     double dividend = 0.07;
     double time_to_exp = 0.25;
 
+    // Can also inclide IO for dynamic input
     BlackScholes bsc{strike, spot, time_to_exp, rate, payoff_type, dividend};
     double init_volatility_guess_1 = 0.1;
     double init_volatility_guess_2 = 0.15;
